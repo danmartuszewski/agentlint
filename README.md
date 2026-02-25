@@ -66,6 +66,10 @@ It will:
 | 9 | Keep it short | LOW | Target under 800 words |
 | 10 | Never auto-generate the whole file | HIGH | LLM-generated files consistently decrease performance |
 
+## Example
+
+See [EXAMPLE.md](EXAMPLE.md) for a real-world report that cut an AGENTS.md from 2,202 to 268 words (88% reduction).
+
 ## TL;DR
 
 > Include only what agents cannot discover on their own. Everything else is noise.
