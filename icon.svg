@@ -1,0 +1,10 @@
+<svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="20" y="10" width="70" height="95" rx="5" stroke="#8b949e" stroke-width="2.5" fill="#161b22"/>
+  <text x="55" y="28" font-family="-apple-system, system-ui, sans-serif" font-size="9" fill="#e6edf3" text-anchor="middle" font-weight="600">AGENTS.md</text>
+  <line x1="33" y1="40" x2="65" y2="40" stroke="#8b949e" stroke-width="2" stroke-linecap="round"/>
+  <line x1="33" y1="50" x2="60" y2="50" stroke="#8b949e" stroke-width="2" stroke-linecap="round"/>
+  <line x1="33" y1="60" x2="55" y2="60" stroke="#8b949e" stroke-width="2" stroke-linecap="round"/>
+  <line x1="33" y1="70" x2="58" y2="70" stroke="#8b949e" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="72" cy="88" r="14" fill="#238636"/>
+  <polyline points="64,88 70,94 82,82" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
