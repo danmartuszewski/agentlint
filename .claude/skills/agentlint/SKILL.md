@@ -10,8 +10,8 @@ Analyze and improve AI agent context files (CLAUDE.md, AGENTS.md, .cursorrules, 
 
 Invoke this skill with `/agentlint` when you want to:
 - Review and improve an existing agent context file
-- Create a new, effective context file from scratch
 - Audit a file for common anti-patterns that hurt agent performance
+- Scaffold a new context file by interviewing you for the non-obvious constraints worth documenting — you supply the content, the skill does not auto-generate it (see Rule 10)
 
 ## Instructions
 
@@ -27,7 +27,7 @@ If the user provides a path, use it. Otherwise, search for common context files 
 - `CODEBASE.md`, `CONTEXT.md`
 - `rules.md`, `.windsurfrules`
 
-If multiple files exist, ask the user which one to analyze. If none exist, ask if they want to create one.
+If multiple files exist, ask the user which one to analyze. If none exist, offer to scaffold one — but per Rule 10, do not auto-generate its contents. Instead, interview the user for the non-obvious tooling and constraints worth documenting (Rules 4-5) and let them supply the actual content.
 
 ### Step 2: Analyze against research-backed rules
 

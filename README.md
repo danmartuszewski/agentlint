@@ -70,6 +70,12 @@ It will:
 
 See [EXAMPLE.md](EXAMPLE.md) for a real-world report that cut an AGENTS.md from 2,202 to 268 words (88% reduction).
 
+## FAQ
+
+**Doesn't using agentlint violate Rule 10?**
+
+No. Rule 10 forbids *auto-generating the whole file from scratch* — that's the pattern the research found consistently hurts performance. agentlint does the opposite: it audits and trims a file *you* wrote, stripping out the bloat that LLM-generated files are full of. The rule itself says to "use AI to help edit or trim," which is exactly what this does. If agentlint had to write your `CLAUDE.md` from nothing, *that* would violate Rule 10 — which is why it doesn't. When no file exists, it interviews you for the non-obvious constraints worth documenting rather than generating content for you.
+
 ## TL;DR
 
 > Include only what agents cannot discover on their own. Everything else is noise.
